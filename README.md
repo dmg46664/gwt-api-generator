@@ -171,3 +171,6 @@ Since `JsInterop` was a feature experimental in GWT-2.7.0 and stable in GWT-2.8.
 The `gwt-polymer-elements` library is bundled with all web components placed in a the `bower_components` folder.
 Though, the developer might change this location by setting the `window.gwtBowerLocation` property, or by calling the `Polymer.setGwtBowerLocation(location)` method in the application entry point.
 
+## Development tips
+As per npm instruction this can be installed locally in a project or globally. Ensure you are using the version you think you are.
+ 1. Run `$ npm update -g` after editing the code or templates to reinstall globally. Requires internet access.
